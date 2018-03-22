@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+
             this.button1 = new System.Windows.Forms.Button();
             this.checkBoxVisibilità = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
@@ -43,6 +44,7 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+<<<<<<< HEAD
             // checkBoxVisibilità
             // 
             this.checkBoxVisibilità.AutoSize = true;
@@ -57,12 +59,20 @@
             this.checkBoxVisibilità.UseVisualStyleBackColor = true;
             this.checkBoxVisibilità.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
+=======
+
+>>>>>>> 82d808c08a50576e4171c544f177d876c0169d15
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(1328, 799);
             this.Controls.Add(this.checkBoxVisibilità);
+=======
+
+            this.ClientSize = new System.Drawing.Size(1561, 625);
+>>>>>>> 82d808c08a50576e4171c544f177d876c0169d15
             this.Controls.Add(this.button1);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
