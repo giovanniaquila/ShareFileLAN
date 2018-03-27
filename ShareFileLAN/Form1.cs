@@ -19,11 +19,13 @@ namespace ShareFileLAN
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Console.WriteLine("Ciao");
 
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
+            Console.WriteLine("ChangeBoxFlag");
 
         }
 
